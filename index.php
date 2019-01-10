@@ -1,5 +1,16 @@
 <?php
 
+/**
+ * declare (directive)
+ *
+ * The directive section allows the behavior of the declare block to be set.
+ *
+ * Currently only three directives are recognized:
+ * - the ticks directive,
+ * - the encoding directive,
+ * - the strict_types directive
+ */
+
 function tickHandler()
 {
     echo 'Will be displayed after every 10 ticks' . nl2br(PHP_EOL);
