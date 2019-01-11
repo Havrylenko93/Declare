@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 /**
  * declare (directive)
@@ -13,7 +14,7 @@
 
 function tickHandler()
 {
-    echo 'Will be displayed after every 10 ticks' . nl2br(PHP_EOL);
+    echo 'Will be displayed after every 10 ticks ' . "\u{1F60D}" . nl2br(PHP_EOL); // Еmoji
 }
 
 register_tick_function('tickHandler');
